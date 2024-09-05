@@ -1,0 +1,56 @@
+*{padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+}/* SeLECIONA TODOS OS ELEMENTOS DO CSS e reseta (reset) */
+
+body { background-color: #ecffca;
+} /* aLTERA A COR DE FUNDO DA PAGINA */
+
+.cabecalho {
+    display:flex; /* Filhos um do lado do outro */
+    flex-direction: column; /* fihos em coluna */
+    gap: 18px; /* espacamento entre os filhos */
+    align-items: center; /* Alinhar os filhos dentra da div. Alinhar o eixo Y */
+
+    background-color: red;
+
+}
+
+.cabecalho img {
+    width: 200px; /* Largura da Imagem */
+    height: 200px; /* Altura da Imagem */
+    border-radius: 100%; /* Arrendodar a imagem */
+    border: black 3px solid; /* Adicionar Borda na img */
+    box-shadow: rgba(0, 0, 0, 0.425) 0px 4px 4px; /* Sombra na na imagem */
+
+
+}
+
+.cabecalho h1 {
+    font-size: 20px; /* tamanho da font */
+    font-family: "Inter", sans-serif;
+
+    
+}
+
+.btn {
+display: flex;
+flex-direction: column;/* Direção dentro da propriedade */
+gap: 30px; /* Espaçamento */
+ }
+.btn a {
+    display: flex;
+    justify-content: center; /* Alinhar eixo X */
+    padding: 16px ;
+    border-radius: 58px;
+    border: black 2px solid;
+    box-shadow: black 5px 5px 0px;
+    width: 235px;
+    background-color: #7cefb9
+    ;
+    color: rgba(0, 0, 0, 0.377);
+    text-decoration: none; /* tirar a decoração da tag <a> */
+
+
+}
